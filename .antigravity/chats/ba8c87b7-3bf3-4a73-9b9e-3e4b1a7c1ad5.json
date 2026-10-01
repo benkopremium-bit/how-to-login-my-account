@@ -3,6 +3,31 @@
   "name": "How to login my account",
   "createdAt": "2026-10-01T00:48:45.907Z",
   "filename": "ba8c87b7-3bf3-4a73-9b9e-3e4b1a7c1ad5.json",
-  "geminiStarted": false,
-  "messages": []
+  "geminiStarted": true,
+  "messages": [
+    {
+      "id": "e6099b2e-7fae-4501-b578-928c5123d48f",
+      "role": "user",
+      "content": "Can you my precious work",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-10-01T01:11:46.541Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "65593a2a-f284-4b2e-a831-e9c4a157248b",
+      "role": "agent",
+      "content": "The agent started on a machine in a place Google doesn't serve, so it couldn't answer.\nSend your message again — the next one usually starts somewhere else.",
+      "status": "error",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "e6099b2e-7fae-4501-b578-928c5123d48f",
+      "created_at": "2026-10-01T01:11:49.718Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    }
+  ]
 }
